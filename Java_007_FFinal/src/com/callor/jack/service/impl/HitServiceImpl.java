@@ -124,7 +124,7 @@ public class HitServiceImpl extends DeckServiceImpl{
 	public void turnBack() {
 		// TODO 카드, 유저, 딜러 List 초기화 method
 		// 게임을 다시 시작하면 카드가 누적되지 않게
-		// 덱에 담긴 카드를 초기화 시키기 위해서 remoweAll을 사용
+		// 덱에 담긴 카드를 초기화 시키기 위해서 removeAll을 사용
 		userList.removeAll(userList);
 		dealerList.removeAll(dealerList);
 		cardList.removeAll(cardList);
