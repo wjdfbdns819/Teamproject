@@ -39,7 +39,7 @@ public class HitServiceImpl extends DeckServiceImpl{
 					System.out.println("=".repeat(50)); */ 
 					
 					break; // => 17이상이면 딜러는 더이상 카드를 받지 않기때문에 
-							// => break;를 사용하며 while() 문 빠져나감
+							// => break;를 사용하 while() 문 빠져나감
 				 } 
 				
 			} // while end  
